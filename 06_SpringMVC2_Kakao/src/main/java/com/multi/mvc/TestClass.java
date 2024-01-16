@@ -52,4 +52,12 @@ public class TestClass {
 			System.out.println("안녕?");
 		}
 	}
+	
+	void test7(String name) {
+		System.out.println("User2의 변경사항, mastrt 작성 versiosn 6");
+		
+		for(int i = 0; i < 100; i++) {
+			System.out.println("안녕?");
+		}
+	}
 }
