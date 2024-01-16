@@ -51,4 +51,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	public String test2() {
+		System.out.println("!!");
+		return "";
+	}
+	
 }
