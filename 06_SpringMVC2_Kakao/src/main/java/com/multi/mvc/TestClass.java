@@ -21,4 +21,11 @@ public class TestClass {
 		}
 	}
 
+	void test3(String name) {
+		System.out.println("User2의 변경사항, versiosn 4");
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.println("안녕?");
+		}
+	}
 }
