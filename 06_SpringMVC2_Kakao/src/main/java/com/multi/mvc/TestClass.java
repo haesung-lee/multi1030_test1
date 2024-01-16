@@ -9,5 +9,16 @@ public class TestClass {
 			System.out.println("홍길동입니다.");
 		}
 	}
+	
+	void test2(String name) {
+		System.out.println("User2의 변경사항, versiosn 3");
+		
+		if(name.equals("최길동")) {
+			System.out.println("최길동입니다.");
+		}
+		if(name.equals("박길동")) {
+			System.out.println("박길동입니다.");
+		}
+	}
 
 }
